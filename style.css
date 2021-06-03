@@ -1,0 +1,67 @@
+
+
+ *h1 { color:red } 
+* { border: dotted dashed solid double;
+
+  } 
+  h2  { 
+    color:cadetblue
+  
+  }
+
+
+  .header{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(102, 255, 0);
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:cornsilk;
+   
+  }
+  .not-allowed{
+    pointer-events: all;
+    cursor: not-allowed;
+  }
+  .caption{
+    display: flex;
+    justify-content: space-evenly;
+    border: 10px solid black;
+    border-bottom: dotted;
+    border-top: dotted;
+  } 
+  .backPics{
+    display: flex;
+    justify-content: space-evenly;
+    border: 20px solid black;
+    border-radius: 1000000px;
+  }
+  body {
+     background-color: cyan;
+     display:flex;
+     flex-wrap: wrap;
+     flex-flow: wrap;
+     font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight : 400;
+   
+    }
+
+  .grid img {
+      border: 2px solid black;
+      border-radius: 100px;
+      width: 280px;
+      font: bold;
+    }
+    .origami{
+      border-radius: 20px;
+      background-color: white;
+
+      width: 310px;
+      font-family: fantasy;
+    }
+    
+  
+
+    
